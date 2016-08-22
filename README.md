@@ -15,8 +15,11 @@ now again type  (adb devices on a terminal) handshake will prompt on a android d
 
 restrictions:
 embedded@ubuntu:~$ adb devices
+
 List of devices attached 
+
 04xxb7dx21321x9b	unauthorized
+
 it's a bad news. we need enable the "Allow USB Debug?" first.
 
 To run the Brute.sh File 

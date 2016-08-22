@@ -13,6 +13,12 @@ Connect victim (usb debugging enable) phone on your laptop using usb cable then 
 that will show devies is offline to bring that online disconnect usb from android phone then reconnect usb cable
 now again type  (adb devices on a terminal) handshake will prompt on a android device click ok now you are good to go when victim will lock the screen you only have to plug usb cable to a victim phone run the Brute.sh file brute force will start
 
+restrictions:
+embedded@ubuntu:~$ adb devices
+List of devices attached 
+04xxb7dx21321x9b	unauthorized
+it's a bad news. we need enable the "Allow USB Debug?" first.
+
 To run the Brute.sh File 
 
 Go to the location where you have saved the given file for Example if you have saved the file on Downloads just go to Download Directory using command :- cd Downloads 
